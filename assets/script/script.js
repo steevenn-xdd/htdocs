@@ -1,4 +1,4 @@
-/*Author: Ing. Ruben D. Chirinos R. Tlf: +58 0414-7225970, email: elsaiya@gmail.com
+/*Author: SDC Developer | Steve Duarte Tlf: +58 0414-7225970, email: elsaiya@gmail.com
 
 /* FUNCION JQUERY PARA VALIDAR ACCESO DE USUARIOS*/
 $('document').ready(function() {
