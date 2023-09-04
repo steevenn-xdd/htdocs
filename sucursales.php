@@ -115,13 +115,13 @@ exit;
             <div class="row">
                 <div class="col-md-4">
                     <div class="form-group has-feedback">
-                        <label class="control-label">N° de Sucursal: <span class="symbol required"></span></label>
-                        <input type="text" class="form-control" name="nrosucursal" id="nrosucursal" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese N° de Sucursal" autocomplete="off" required="" aria-required="true"/>  
+                        <label class="control-label">Código de Sucursal: <span class="symbol required"></span></label>
+                        <input type="text" class="form-control" name="nrosucursal" id="nrosucursal" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Código de Sucursal" autocomplete="off" required="" aria-required="true"/>  
                         <i class="fa fa-pencil form-control-feedback"></i> 
                     </div>
                 </div>
                 
-              <!--  <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="form-group has-feedback">
                         <label class="control-label">Tipo de Documento: <span class="symbol required"></span></label>
                         <i class="fa fa-bars form-control-feedback"></i> 
@@ -140,19 +140,15 @@ exit;
                         <?php } } ?>
                         </select>
                     </div>
-                </div>-->
+                </div>
 
-
-<!--tipo de documento se retiro-->
-
- <!--               <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="form-group has-feedback">
                         <label class="control-label">Nº de Registro: <span class="symbol required"></span></label>
                         <input type="text" class="form-control" name="cuitsucursal" id="cuitsucursal" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Nº de Registro" autocomplete="off" required="" aria-required="true"/> 
                         <i class="fa fa-bolt form-control-feedback"></i> 
                     </div>
-                </div>-->
-<!--n de regitro se retiro-->
+                </div>
             </div>
 
             <div class="row">
@@ -166,16 +162,16 @@ exit;
 
                 <div class="col-md-4">
                     <div class="form-group has-feedback">
-                        <label class="control-label">Nº de RNC: <span class="symbol required"></span></label>
-                        <input type="text" class="form-control" name="codgiro" id="codgiro" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Código de RNC" autocomplete="off" required="" aria-required="true"/>  
+                        <label class="control-label">Nº de Giro: <span class="symbol required"></span></label>
+                        <input type="text" class="form-control" name="codgiro" id="codgiro" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Código de Giro" autocomplete="off" required="" aria-required="true"/>  
                         <i class="fa fa-pencil form-control-feedback"></i> 
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="form-group has-feedback">
-                        <label class="control-label">Actividad Principal: <span class="symbol required"></span></label>
-                        <input type="text" class="form-control" name="girosucursal" id="girosucursal" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Actividad Principal" autocomplete="off" required="" aria-required="true"/>  
+                        <label class="control-label">Giro de Empresa: <span class="symbol required"></span></label>
+                        <input type="text" class="form-control" name="girosucursal" id="girosucursal" onKeyUp="this.value=this.value.toUpperCase();" placeholder="Ingrese Giro de Empresa" autocomplete="off" required="" aria-required="true"/>  
                         <i class="fa fa-pencil form-control-feedback"></i> 
                     </div>
                 </div>
@@ -237,23 +233,20 @@ exit;
                     </div>
                 </div>
 
-       <!--         <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="form-group has-feedback">
                         <label class="control-label">Nº de Actividad: <span class="symbol required"></span></label>
                         <input type="text" class="form-control" name="nroactividadsucursal" id="nroactividadsucursal" onKeyUp="this.value=this.value.toUpperCase();" autocomplete="off" placeholder="Ingrese Nº de Actividad" required="" aria-required="true">
                         <i class="fa fa-pencil form-control-feedback"></i> 
                     </div>
                 </div> 
-
-                            -->
-<!--retiramo numero de actividad-->
             </div>
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="form-group has-feedback">
-                        <label class="control-label">Comprobantes Fiscales: <span class="symbol required"></span></label>
-                        <input type="number" min="1" step="1" class="form-control number" name="inicioticket" id="inicioticket" onKeyUp="this.value=this.value.toUpperCase();" autocomplete="off" placeholder="Ingrese Nº de Inicio de comprobante Fiscal" required="" aria-required="true">
+                        <label class="control-label">Nº Inicio de Ticket: <span class="symbol required"></span></label>
+                        <input type="number" min="1" step="1" class="form-control number" name="inicioticket" id="inicioticket" onKeyUp="this.value=this.value.toUpperCase();" autocomplete="off" placeholder="Ingrese Nº de Inicio de Ticket" required="" aria-required="true">
                         <i class="fa fa-bolt form-control-feedback"></i> 
                     </div>
                 </div>
