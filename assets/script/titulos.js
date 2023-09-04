@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 document.title = '.:: Sistema de Gestión de Ventas para Restaurantes ::.';		
-$(".current-year").text('2019 - ' + new Date().getFullYear() + ' CopyRight. Todos los Derechos Reservados. Ing. Ruben D. Chirinos. R');
+$(".current-year").text('2022 - ' + new Date().getFullYear() + ' CopyRight. Todos los Derechos Reservados. SDC Developer | Steven Duarte ');
 //$(".logo").text('SOFTWARE ACADÉMICO');		
 }); 
 
